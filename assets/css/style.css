@@ -14,7 +14,7 @@ header {
     font-size: 20px;
     background-color: #132238;
     height: 90px;
-    padding-right: 3%;
+    padding-right: 38px;
     padding-top: 3px;
 }
 
@@ -32,12 +32,12 @@ header nav {
 
 /*navbar list*/
 nav ul li {
-    padding-top: 5%;
+    padding-top: 20px;
     display: inline-block;
     margin-right: 30px;
 }
 
-/*line under navbar*/
+/*navbar list and line under navbar*/
 li a{
     color: #98CCD3;
     text-decoration: none;
@@ -121,13 +121,13 @@ footer {
 .image-absolute-right {
     background-color: #98CCD3;
     position: absolute;
-    bottom: 65%;
+    bottom: 480px;
     right: 84px;
     width: 145px;
     height: 50px;
     font-size: 33px;
     padding-left: 12px;
-    padding-top: 8px;
+    padding-top: 13px;
 }
 
 
@@ -205,13 +205,13 @@ footer {
     width: 982px;
     opacity: 0.4;
     padding: 6px;
+    position: relative;
 }
 
 /*hover for nami work picture for work section*/
 .big-work-image:hover {
 opacity: 1;
 transition: 2s;
-position: relative;
 cursor: pointer;
 }
 
@@ -219,7 +219,7 @@ cursor: pointer;
 .image-absolute-left {
     background-color: #98CCD3;
     position: absolute;
-    top: 113%;
+    top: 825px;
     width: 105px;
     height: 50px;
     font-size: 33px;
@@ -240,6 +240,7 @@ cursor: pointer;
     justify-content: space-between;
     background-color: #98CCD3;
     padding: 5px;
+    position: relative;
  }
 
 
@@ -247,7 +248,6 @@ cursor: pointer;
 .small-work-image:hover {
     opacity: 1;
     transition: 2s;
-    position: relative;
     cursor: pointer;
 }
 
@@ -255,7 +255,7 @@ cursor: pointer;
 .small-image-absolute-left1 {
     background-color: #98CCD3;
     position: absolute;
-    top: 155%;
+    top: 1147px;
     width: 155px;
     height: 50px;
     font-size: 33px;
@@ -278,13 +278,13 @@ cursor: pointer;
     background-color: #98CCD3;
     padding: 5px;
     margin-top: 15px;
+    position: relative;
  }
 
  /*hover for small prework work section*/
 .small-work-image1:hover {
     opacity: 1;
     transition: 2s;
-    position: relative;
     cursor: pointer;
 }
 
@@ -292,8 +292,8 @@ cursor: pointer;
   .small-image-absolute-left2 {
     background-color: #98CCD3;
     position: absolute;
-    top: 155%;
-    right: 427px;
+    top: 1147px;
+    right: 428px;
     width: 145px;
     height: 50px;
     font-size: 33px;
@@ -301,3 +301,170 @@ cursor: pointer;
     padding-top: 8px;
  }
 
+
+
+
+
+ /* Tablets - header changes color */
+@media screen and (max-width: 1250px) {
+   
+    /*dark blue header*/
+    header {
+        font-family: Helvetica, 'PT Sans', 'Work Sans', sans-serif;
+        font-size: 20px;
+        background-color: #132238;
+        height: 240px;
+        padding-right: 400px;
+        padding-top: 3px;
+        display: inline-flex;
+    }
+
+    /*my name in header*/
+    h1 {
+    color:#132238;
+    background-color: #98CCD3;
+    padding: 50px 8px 2px 40px;
+    margin: 5px auto;
+    font-size: 50px;
+    font-family: Helvetica, 'PT Sans', 'Work Sans', sans-serif;
+    display: inline-block;
+    }
+
+    /*navbar list*/
+    nav ul li {
+    padding-top: 20px;
+    padding-left: 10px;
+    display: inline-block;
+    padding-right: 10px;
+    }
+
+    /*navbar list and line under navbar*/
+    li a{
+    color: #98CCD3;
+    text-decoration: none;
+    border-bottom: solid #98CCD3;
+    border-width: 3px;
+    }
+
+    /*nami work pic*/
+    .big-work-image {
+        background-color: #98CCD3;
+        width: 300px;
+        opacity: 0.4;
+        padding: 6px;
+    }
+
+    .work-content {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 50px;
+    }
+
+    /*small picture for horiseon work section*/
+    .small-work-image {
+        opacity: 0.4;
+        display: inline-flex;
+        justify-content: space-between;
+        background-color: #98CCD3;
+        padding: 5px;
+        position: relative;
+        height: 140px;
+        width: 300px;
+     }
+
+    /*small picture for prework work section*/
+    .small-work-image1 {
+    opacity: 0.4;
+    display: inline-flex;
+    padding: 12px 0px 0px 13px;
+    justify-content: space-between;
+    background-color: #98CCD3;
+    padding: 5px;
+    margin-top: 15px;
+    position: relative;
+    width: 300px;
+    height: 140px;
+    }
+ 
+    /*sections that goes on the left side*/
+    .content-left {
+    flex: 1;
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 20px;
+    }
+
+
+    /*sections that goes on the left side*/
+    .content-left {
+    flex: ;
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 30px;
+    }
+
+    /*subtitle on the right side of the big picture under header*/
+    .image-absolute-right {
+    background-color: #98CCD3;
+    position: absolute;
+    bottom: 325px;
+    right: 84px;
+    width: 145px;
+    height: 50px;
+    font-size: 33px;
+    padding-left: 12px;
+    padding-top: 13px;
+}
+
+    /*subtitle for big work image*/
+    .image-absolute-left {
+    background-color: #98CCD3;
+    position: absolute;
+    top: 1405px;
+    width: 105px;
+    height: 50px;
+    font-size: 33px;
+    padding-left: 12px;
+    padding-top: 12px;
+    right: 338px;
+ }
+
+
+    /*subtitle for small work image 1*/
+    .small-image-absolute-left1 {
+    background-color: #98CCD3;
+    position: absolute;
+    top: 1545px;
+    width: 155px;
+    height: 50px;
+    font-size: 33px;
+    padding-left: 12px;
+    padding-top: 8px;
+    right: 289px;
+ }
+
+    /*subtitle for small work image */
+    .small-image-absolute-left2 {
+    background-color: #98CCD3;
+    position: absolute;
+    top: 1705px;
+    right: 298px;
+    width: 145px;
+    height: 50px;
+    font-size: 33px;
+    padding-left: 12px;
+    padding-top: 8px;
+ }
+
+    /*contact links*/
+    .contact-links {
+    color: #132238;
+    font-size: 15px;
+    display: inline-flex;
+    margin-right: 90px;
+    padding-top: 35px; 
+    justify-content: space-around;
+}
+
+}
