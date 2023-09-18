@@ -46,6 +46,8 @@ li a{
     border-width: 3px;
 }
 
+
+/*hover for navbar*/
 li a:hover {
     color: #d8fcff;
 }
@@ -75,7 +77,16 @@ h2 {
 
 /*body section*/
 body {
-    background-color: #d8e0f3;
+    background-color: #e2e4ea;
+}
+
+
+footer {
+    background-color: #132238;
+    height: 40px;
+    padding-top: 12px;
+    text-align: center;
+    color: #98CCD3;
 }
 
 
@@ -88,7 +99,7 @@ body {
 
 
 /*little title on the right side of the big picture under header*/
-.image-absolute {
+.image-absolute-right {
     background-color: #98CCD3;
     position: absolute;
     bottom: 65%;
@@ -150,38 +161,119 @@ body {
     color: #132238;
     font-size: 25px;
     display: inline-flex;
-    margin-right: 80px;
+    margin-right: 90px;
     padding-top: 35px; 
     justify-content: space-around;
-    text-decoration: none;
 }
 
 .contact-links:hover {
-    color: #9cbbf4;
+    color: #94c1c6;
 }
   
 
 
 
-/*line under contact links*/
-.contactme-content a {
-    border: solid #d8e0f3;
-    border-width: 3px;
-    
+
+
+/*big work picture for work section*/
+.big-work-image {
+    background-color: #98CCD3;
+    width: 982px;
+    opacity: 0.4;
+    padding: 6px;
 }
 
+/*hover for nami work picture for work section*/
+.big-work-image:hover {
+opacity: 1;
+transition: 2s;
+position: relative;
+cursor: pointer;
+}
 
-
-/*small pictures for work section*/
- .small-work-images {
-    display: inline-flex;
-    padding: 12px 13px 0px 0px;
-    justify-content: space-between;
+/*subtitle for big work image*/
+.image-absolute-left {
+    background-color: #98CCD3;
+    position: absolute;
+    top: 113%;
+    width: 105px;
+    height: 50px;
+    font-size: 33px;
+    padding-left: 12px;
+    padding-top: 8px;
+    right: 963px;
  }
 
- .small-work-images-1 {
+
+
+
+
+
+/*small picture for horiseon work section*/
+ .small-work-image {
+    opacity: 0.4;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: #98CCD3;
+    padding: 5px;
+ }
+
+
+/*hover for small horiseon work section*/
+.small-work-image:hover {
+    opacity: 1;
+    transition: 2s;
+    position: relative;
+    cursor: pointer;
+}
+
+/*subtitle for small work image 1*/
+.small-image-absolute-left1 {
+    background-color: #98CCD3;
+    position: absolute;
+    top: 155%;
+    width: 155px;
+    height: 50px;
+    font-size: 33px;
+    padding-left: 12px;
+    padding-top: 8px;
+    right: 913px;
+ }
+
+
+
+
+
+
+/*small picture for prework work section*/
+ .small-work-image1 {
+    opacity: 0.4;
     display: inline-flex;
     padding: 12px 0px 0px 13px;
     justify-content: space-between;
+    background-color: #98CCD3;
+    padding: 5px;
+    margin-top: 15px;
+ }
+
+ /*hover for small prework work section*/
+.small-work-image1:hover {
+    opacity: 1;
+    transition: 2s;
+    position: relative;
+    cursor: pointer;
+}
+
+  /*subtitle for small work image */
+  .small-image-absolute-left2 {
+    background-color: #98CCD3;
+    position: absolute;
+    top: 155%;
+    right: 427px;
+    width: 145px;
+    height: 50px;
+    font-size: 33px;
+    padding-left: 12px;
+    padding-top: 8px;
  }
 
