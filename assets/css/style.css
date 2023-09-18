@@ -1,0 +1,187 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*dark blue header area*/
+header {
+    font-family: Helvetica, 'PT Sans', 'Work Sans', sans-serif;
+    font-size: 20px;
+    background-color: #132238;
+    height: 90px;
+    padding-right: 3%;
+    padding-top: 3px;
+}
+
+
+
+/*navbar*/
+header nav {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    display: inline-block;
+
+}
+
+
+/*navbar list*/
+nav ul li {
+    padding-top: 5%;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+
+/*line under navbar*/
+li a{
+    color: #98CCD3;
+    text-decoration: none;
+    border-bottom: solid #98CCD3;
+    border-width: 3px;
+}
+
+li a:hover {
+    color: #d8fcff;
+}
+
+
+
+/*my name at the top*/
+h1 {
+    color:#132238;
+    background-color: #98CCD3;
+    padding: 5px 12px 10px 100px;
+    margin: 5px auto;
+    font-size: 50px;
+    font-family: Helvetica, 'PT Sans', 'Work Sans', sans-serif;
+    display: inline-block;
+}
+
+
+/*content titles on the left side*/
+h2 {
+    color: #132238;
+    font-size: 50px;
+    font-family: Helvetica, 'PT Sans', 'Work Sans', sans-serif;
+}
+
+
+
+/*body section*/
+body {
+    background-color: #d8e0f3;
+}
+
+
+
+/*big picture that goes under header*/
+.top-image {
+    height: 180px;
+    overflow: hidden;
+}
+
+
+/*little title on the right side of the big picture under header*/
+.image-absolute {
+    background-color: #98CCD3;
+    position: absolute;
+    bottom: 65%;
+    right: 84px;
+    width: 145px;
+    height: 50px;
+    font-size: 33px;
+    padding-left: 12px;
+    padding-top: 8px;
+}
+
+
+
+/*containers for body sections*/
+.aboutme-content {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    padding: 35px 0px 50px 0px;
+}
+
+.work-content {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.contactme-content {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+/*sections that goes on the left side*/
+.content-left {
+    flex: 1;
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 30px;
+}
+
+
+
+/*sections that goes on the right side*/
+.content-right {
+    flex: 4;
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 80px;
+    border-left: solid;
+    border-width: 5px;
+}
+
+
+ /*contact links*/
+.contact-links {
+    color: #132238;
+    font-size: 25px;
+    display: inline-flex;
+    margin-right: 80px;
+    padding-top: 35px; 
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.contact-links:hover {
+    color: #9cbbf4;
+}
+  
+
+
+
+/*line under contact links*/
+.contactme-content a {
+    border: solid #d8e0f3;
+    border-width: 3px;
+    
+}
+
+
+
+/*small pictures for work section*/
+ .small-work-images {
+    display: inline-flex;
+    padding: 12px 13px 0px 0px;
+    justify-content: space-between;
+ }
+
+ .small-work-images-1 {
+    display: inline-flex;
+    padding: 12px 0px 0px 13px;
+    justify-content: space-between;
+ }
+
