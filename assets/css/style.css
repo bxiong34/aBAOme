@@ -7,6 +7,7 @@
 
 
 
+
 /*dark blue header area*/
 header {
     font-family: Helvetica, 'PT Sans', 'Work Sans', sans-serif;
@@ -19,15 +20,15 @@ header {
 
 
 
+
+
 /*navbar*/
 header nav {
     padding-top: 10px;
     margin-right: 20px;
     float: right;
     display: inline-block;
-
 }
-
 
 /*navbar list*/
 nav ul li {
@@ -35,8 +36,6 @@ nav ul li {
     display: inline-block;
     margin-right: 30px;
 }
-
-
 
 /*line under navbar*/
 li a{
@@ -46,11 +45,13 @@ li a{
     border-width: 3px;
 }
 
-
 /*hover for navbar*/
 li a:hover {
     color: #d8fcff;
 }
+
+
+
 
 
 
@@ -66,6 +67,8 @@ h1 {
 }
 
 
+
+
 /*content titles on the left side*/
 h2 {
     color: #132238;
@@ -75,19 +78,36 @@ h2 {
 
 
 
+
+p {
+    line-height: 22px;
+}
+
+
+
+
+
 /*body section*/
 body {
     background-color: #e2e4ea;
 }
 
 
+
+
+
+/*footer*/
 footer {
     background-color: #132238;
-    height: 40px;
-    padding-top: 12px;
+    height: 45px;
+    padding-top: 13px;
     text-align: center;
     color: #98CCD3;
+    font-size: 18px;
+    font-family: Helvetica, 'PT Sans', 'Work Sans', sans-serif;;
 }
+
+
 
 
 
@@ -97,8 +117,7 @@ footer {
     overflow: hidden;
 }
 
-
-/*little title on the right side of the big picture under header*/
+/*subtitle on the right side of the big picture under header*/
 .image-absolute-right {
     background-color: #98CCD3;
     position: absolute;
@@ -110,6 +129,8 @@ footer {
     padding-left: 12px;
     padding-top: 8px;
 }
+
+
 
 
 
@@ -135,6 +156,9 @@ footer {
     padding-bottom: 50px;
 }
 
+
+
+
 /*sections that goes on the left side*/
 .content-left {
     flex: 1;
@@ -142,8 +166,6 @@ footer {
     padding-right: 15px;
     padding-left: 30px;
 }
-
-
 
 /*sections that goes on the right side*/
 .content-right {
@@ -154,6 +176,8 @@ footer {
     border-left: solid;
     border-width: 5px;
 }
+
+
 
 
  /*contact links*/
