@@ -421,13 +421,13 @@ cursor: pointer;
     .image-absolute-left {
     background-color: #98CCD3;
     position: absolute;
-    top: 1405px;
+    top: 1580px;
     width: 105px;
     height: 50px;
     font-size: 33px;
     padding-left: 12px;
     padding-top: 12px;
-    right: 338px;
+    right: 315px;
  }
 
 
@@ -435,21 +435,21 @@ cursor: pointer;
     .small-image-absolute-left1 {
     background-color: #98CCD3;
     position: absolute;
-    top: 1545px;
+    top: 1725px;
     width: 155px;
     height: 50px;
     font-size: 33px;
     padding-left: 12px;
     padding-top: 8px;
-    right: 289px;
+    right: 265px;
  }
 
     /*subtitle for small work image */
     .small-image-absolute-left2 {
     background-color: #98CCD3;
     position: absolute;
-    top: 1705px;
-    right: 298px;
+    top: 1880px;
+    right: 275px;
     width: 145px;
     height: 50px;
     font-size: 33px;
