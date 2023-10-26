@@ -38,6 +38,7 @@ footer {
 .column.is-2 {
     border-right: solid;
     border-width: 3px;
+    padding-right: 4%;
 }
 
 .column.is-10 {
