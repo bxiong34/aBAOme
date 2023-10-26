@@ -8,26 +8,27 @@ h2, h3 {
     font-size: 30px;
 }
 
+footer {
+    text-align: center;
+}
 
 #about-me, #work, #contact-me {
   padding: 2%;
 }
 
+.contact-links {
+    margin-right: 8rem;
+    font-size: 20px;
+}
+
 .title {
     padding-left: 5rem;
-    text-align: center;
-    vertical-align: middle;
 }
 
 .navbar-end {
     padding-right: 5rem;
     text-align: center;
     vertical-align: middle;
-}
-
-.work-content-right {
-    display: inline-flex;
-    flex-wrap: wrap;
 }
 
 .column.is-2 {
@@ -43,45 +44,72 @@ h2, h3 {
     width: 100vw;
 }
 
-.big-work-image {
+.nami-work {
     position: relative;
-    /* scale: 100%; */
 }
 
-.small-work-image0 
-.small-work-image1,
-.small-work-image2 {
+.horiseon-work 
+{
     position: relative;
-    /* scale: 50%; */
 }
 
-.big-work-title {
+.pre-work {
+    position: relative;
+}
+
+.weather-work {
+    position: relative;
+}
+
+.moodvie-work {
+    position: relative;
+}
+
+.nami-work:hover {
+    opacity: 1;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.nami-title {
     position: absolute;
-    top: 40%;
+    top: 80%;
     background-color: #28232375;
     color: white;
+    display: block;
   }
 
-.small-work-title0 {
+.horiseon-title {
     position: absolute;
-    top: 66%;
+    top: 70%;
+    background-color: #2823239b;
+    color: white;
+}
+
+.pre-work-title {
+    position: absolute;
+    top: 70%;
     background-color: #28232375;
     color: white;
 }
 
-.small-work-title1 {
+.weather-title {
     position: absolute;
-    top: 66%;
-    right: 32.75%;
+    top: 72%;
     background-color: #28232375;
     color: white;
 }
 
-.small-work-title2 {
+.moodvie-title {
     position: absolute;
-    top: 91%;
+    top: 72%;
     background-color: #e3e3e375;
     color: white;
+}
+
+.small-work {
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
@@ -98,5 +126,11 @@ h2, h3 {
         border: none;
         border-bottom: solid;
         margin: 4%;
+    }
+
+    .contact-links {
+        margin-right: 0;
+        display: block;
+        text-align: center;
     }
 }

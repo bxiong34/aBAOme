@@ -18,28 +18,26 @@
   <!--sections-->
   <main>
     <section>
-
       <!-- navbar -->
-    <nav class="navbar has-shadow">
-        <div class="navbar-brand is-4 pt-4">
-          <a class="navbar-item is-dark">
-          </a>
-          <h1 class="title has-text-grey">aBAOme</h1>
-          <a class="navbar-burger" id="burger">
-          <span></span>
-          <span></span>
-          <span></span>
-          </a>
-      </div>
-      <!-- navbar items -->
-      <div class="navbar-menu is-8 mx-4 pb-4" id="nav-links">
-          <div class="navbar-end">
-              <a href="#about-me" class="navbar-item has-text-black">About Me</a>
-              <a href="#work" class="navbar-item has-text-black">Work</a>
-              <a href="#contact-me" class= "navbar-item has-text-black">Contact Me</a>
+      <nav class="navbar has-shadow">
+          <div class="navbar-brand is-4 pt-4">
+            <a class="navbar-item is-dark"></a>
+            <h1 class="title has-text-grey">aBAOme</h1>
+            <a class="navbar-burger" id="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
           </div>
-      </div>
-    </nav>
+          <!-- navbar items -->
+          <div class="navbar-menu is-8 mx-4 pb-4" id="nav-links">
+              <div class="navbar-end">
+                  <a href="#about-me" class="navbar-item has-text-black">About Me</a>
+                  <a href="#work" class="navbar-item has-text-black">Work</a>
+                  <a href="#contact-me" class= "navbar-item has-text-black">Contact Me</a>
+              </div>
+          </div>
+      </nav>
 
       <!-- about me container -->
       <div class="container">
@@ -81,16 +79,28 @@
           <!-- work  column -->
           <div class="column is-10">
             <div class="work-content-right">
-              <a href="https://bxiong34.github.io/Nami/"><img src="assets/images/nami pic.png" class="big-work-image" alt="nami pic" width="982px">
-                    <h3 class="big-work-title">Nami</h3></a>
-              <a href="https://bxiong34.github.io/Simple-Accessible-Webpage/"><img src="assets/images/challenge 1 pic.png" class="small-work-image0" alt="challenge 1 pic" width="490px" height="300px">
-                    <h3 class="small-work-title0">Horiseon</h3></a>
-              <a href="https://bxiong34.github.io/prework-study-guide/"><img src="assets/images/pre-work pic.png" class="small-work-image1" alt="pre-work pic" width="490px" height="300px">
-                    <h3 class="small-work-title1">Prework</h3></a>
-              <a href="https://bxiong34.github.io/moodvie-generator/"><img src="assets/images/home.gif" class="small-work-image2" alt="moodvie-generator pic" width="490px" height="300px">
-                    <h3 class="small-work-title2">Moodvie Generator</h3></a>
+              <div class="nami-work"><a href="https://bxiong34.github.io/Nami/"><img src="assets/images/nami pic.png" alt="nami pic" width="982px">
+                    <h3 class="nami-title">Nami</h3></a>
+              </div>
+
+              <div class="small-work">
+                <div class="horiseon-work"><a href="https://bxiong34.github.io/Simple-Accessible-Webpage/"><img src="assets/images/challenge 1 pic.png" alt="horiseon pic" width="490px" height="300px">
+                      <h3 class="horiseon-title">Horiseon</h3></a>
+                </div>
+                <div class="pre-work"><a href="https://bxiong34.github.io/prework-study-guide/"><img src="assets/images/pre-work pic.png" alt="pre-work pic" width="490px" height="300px">
+                      <h3 class="pre-work-title">Prework</h3></a>
+                </div>
+                <div class="weather-work"><a href="https://bxiong34.github.io/weather-forecast/"><img src="assets/images/weather pic.png" alt="weather pic" width="490px" height="300px">
+                      <h3 class="weather-title">Weather Forecast</h3></a>
+                </div>
+                <div class="moodvie-work"><a href="https://bxiong34.github.io/moodvie-generator/"><img src="assets/images/home.gif" alt="moodvie pic" width="490px" height="300px">
+                      <h3 class="moodvie-title">Moodvie Generator</h3></a>
+                </div>
+              </div>
+
             </div>
           </div>
+          
         </div>
       </div>
      
@@ -107,9 +117,9 @@
           <!-- contact me  column -->
           <div class="column is-10">
             <div class="content-right">
-              <a href="https://github.com/bxiong34" class="contact-links">GitHub</a>
-              <a href="https://www.linkedin.com/" class="contact-links">LinkedIn</a>
-              <a href="mailto: baoxiong814@gmail.com" class="contact-links">Email</a>
+              <a class="contact-links" href="https://github.com/bxiong34" >GitHub</a>
+              <a class="contact-links" href="https://www.linkedin.com/">LinkedIn</a>
+              <a class="contact-links" href="mailto: baoxiong814@gmail.com">Email</a>
             </div>
           </div>
         </div>
@@ -119,8 +129,8 @@
   </main>
 
   <!--footer-->
-  <footer>
-    <span>© 2023 Bao Xiong</span>
+  <footer class="footer has-text-centered is-vcentered ">
+    <p>© 2023 Bao Xiong</p>
   </footer>
 </body>
 
