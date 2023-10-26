@@ -31,6 +31,10 @@ footer {
     vertical-align: middle;
 }
 
+.content-right {
+    padding-right: 5%;
+}
+
 .column.is-2 {
     border-right: solid;
     border-width: 3px;
@@ -65,11 +69,11 @@ footer {
     position: relative;
 }
 
-.nami-work:hover {
+/* .nami-work:hover {
     opacity: 1;
     transition: 2s;
     cursor: pointer;
-}
+} */
 
 .nami-title {
     position: absolute;
@@ -131,6 +135,10 @@ footer {
     .contact-links {
         margin-right: 0;
         display: block;
+        text-align: center;
+    }
+
+    .content-right {
         text-align: center;
     }
 }
