@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>aBAOme</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="icon" href="./assets/images/favicon (2).ico">
@@ -13,80 +14,111 @@
 
 <!--navbar-->
 <body>
-  <header>
-    <h1>Bao Xiong</h1>
-    <nav>
-      <ul>
-        <li><a href="#aboutme">About Me</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contactme">Contact Me</a></li>
-        <li><a href="https://resume.io/resume-templates?ga_utm_source=google&ga_utm_medium=ppc&ga_utm_campaign=996263450&ga_utm_term=resume%20templates&gclid=CjwKCAjw6p-oBhAYEiwAgg2PgtelqN7rYIIP6UCw2zIySf3603S37TBYQPR8HfDuY0h7B5wlqxUniBoCgbsQAvD_BwE">Resume</a></li>
-      </ul>
-    </nav>
-  </header>
 
-
-<!--sections-->
+  <!--sections-->
   <main>
-    <section class="top-image">
-         <img src="assets/images/75185b2759c537347afe6c4d60d88129.jpg" alt="blue abstract background" width="1500">
-         <p class="image-absolute-right">Portfolio</p>
+    <section>
+
+      <!-- navbar -->
+    <nav class="navbar has-shadow">
+        <div class="navbar-brand is-4 pt-4">
+          <a class="navbar-item is-dark">
+          </a>
+          <h1 class="title has-text-grey">aBAOme</h1>
+          <a class="navbar-burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+          </a>
+      </div>
+      <!-- navbar items -->
+      <div class="navbar-menu is-8 mx-4 pb-4" id="nav-links">
+          <div class="navbar-end">
+              <a href="#about-me" class="navbar-item has-text-black">About Me</a>
+              <a href="#work" class="navbar-item has-text-black">Work</a>
+              <a href="#contact-me" class= "navbar-item has-text-black">Contact Me</a>
+          </div>
+      </div>
+    </nav>
+
+      <!-- about me container -->
+      <div class="container">
+        <div class="columns" id="about-me">
+          <!-- about me title column -->
+          <div class="column is-2 has-text-right">
+            <div class="content-left">
+              <h2>About<br>Me</h2>
+            </div>
+          </div>
+
+          <!-- about me  column -->
+          <div class="column is-10">
+            <div class="content-right">
+              <p> My name is Bao Xiong and I am currently learning how to code in a bootcamp, working towards a coding certificate.
+                  There is always something new to learn in the coding industry which makes it exciting. Although coding can be quite
+                  challenging at times, I am always up for the challenge because the end results are worthwhile. I like to see my work 
+                  come to life and see how users interact with my work. </p>
+                  <br>
+              <p> What I hope to create are creative, responsive, and user-friendly applications. I want to make sure that I am
+                  constantly thinking about the user experience when I create applications, taking into account what users would want
+                  and need. What I really strive for is making sure that my applications are accessible, usuable, and astheically pleasing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- work container -->
+      <div class="container">
+        <div class="columns" id="work">
+          <!-- work title column -->
+          <div class="column is-2 has-text-right">
+            <div class="content-left">
+              <h2>Work</h2>
+            </div>
+          </div>
+
+          <!-- work  column -->
+          <div class="column is-10">
+            <div class="work-content-right">
+              <a href="https://bxiong34.github.io/Nami/"><img src="assets/images/nami pic.png" class="big-work-image" alt="nami pic" width="982px">
+                    <h3 class="big-work-title">Nami</h3></a>
+              <a href="https://bxiong34.github.io/Simple-Accessible-Webpage/"><img src="assets/images/challenge 1 pic.png" class="small-work-image0" alt="challenge 1 pic" width="490px" height="300px">
+                    <h3 class="small-work-title0">Horiseon</h3></a>
+              <a href="https://bxiong34.github.io/prework-study-guide/"><img src="assets/images/pre-work pic.png" class="small-work-image1" alt="pre-work pic" width="490px" height="300px">
+                    <h3 class="small-work-title1">Prework</h3></a>
+              <a href="https://bxiong34.github.io/moodvie-generator/"><img src="assets/images/home.gif" class="small-work-image2" alt="moodvie-generator pic" width="490px" height="300px">
+                    <h3 class="small-work-title2">Moodvie Generator</h3></a>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <!-- contact me container -->
+      <div class="container">
+        <div class="columns" id="contact-me">
+          <!-- contact me title column -->
+          <div class="column is-2 has-text-right">
+            <div class="content-left">
+              <h2>Contact<br>Me</h2>
+            </div>
+          </div>
+
+          <!-- contact me  column -->
+          <div class="column is-10">
+            <div class="content-right">
+              <a href="https://github.com/bxiong34" class="contact-links">GitHub</a>
+              <a href="https://www.linkedin.com/" class="contact-links">LinkedIn</a>
+              <a href="mailto: baoxiong814@gmail.com" class="contact-links">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
+  </main>
 
-
-  <section>
-    <section class="aboutme-content" id="aboutme">
-        <nav class="content-left">
-            <h2>About<br>Me</h2>
-        </nav>
-        <nav class="content-right">
-            <p> My name is Bao Xiong and I am currently learning how to code in a bootcamp, working towards a coding certificate.
-                There is always something new to learn in the coding industry which makes it exciting. Although coding can be quite
-                challenging at times, I am always up for the challenge because the end results are worthwhile. I like to see my work 
-                come to life and see how users interact with my work. </p>
-                <br>
-            <p> What I hope to create are creative, responsive, and user-friendly applications. I want to make sure that I am
-                constantly thinking about the user experience when I create applications, taking into account what users would want
-                and need. What I really strive for is making sure that my applications are accessible, usuable, and astheically pleasing.
-        </nav>
-    </section>
-
-
-    <section class="work-content" id="work">
-        <nav class="content-left">
-            <h2>Work</h2>
-        </nav>
-        <nav class="content-right">
-          <a href="https://bxiong34.github.io/Nami/"><img src="assets/images/nami pic.png" class="big-work-image" alt="nami pic" width="982px"></a>
-                <p class="image-absolute-left">Nami</p>
-          <a href="https://bxiong34.github.io/Simple-Accessible-Webpage/"><img src="assets/images/challenge 1 pic.png" class="small-work-image" alt="challenge 1 pic" width="490px" height="300px"></a>
-                <p class="small-image-absolute-left">Horiseon</p>
-          <a href="https://bxiong34.github.io/prework-study-guide/"><img src="assets/images/pre-work pic.png" class="small-work-image1" alt="pre-work pic" width="490px" height="300px"></a>
-                <p class="small-image-absolute-left1">Prework</p>
-        </nav>
-    </section>
-
-
-    <section class="contactme-content" id="contactme">
-        <nav class="content-left">
-            <h2>Contact<br>Me</h2>
-        </nav>
-        <nav class="content-right">
-            <a href="mailto: baoxiong814@gmail.com" class="contact-links">Email</a>
-            <a href="https://bxiong34.github.io/aBAOme/" class="contact-links">aBAOme@website.com</a>
-            <a href="https://github.com/bxiong34" class="contact-links">GitHub</a>
-            <a href="https://www.facebook.com/" class="contact-links">Facebook</a>
-        </nav>
-    </section>
-
-</main>
-
-
-
-
-  
-
-<!--footer-->
+  <!--footer-->
   <footer>
     <span>© 2023 Bao Xiong</span>
   </footer>
